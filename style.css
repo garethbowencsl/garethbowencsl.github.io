@@ -1,0 +1,105 @@
+html, body {
+  height: 100%;
+  font-size: 1rem;
+}
+body {
+  font-family: Raleway, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+h1, h2 {
+  text-shadow: 1px 1px 2px #686868;
+}
+h2 {
+  border-left: 5px solid #004368;
+  margin-left: -15px;
+  padding-left: 10px;
+}
+.banner-photo {
+  background: url('stclair.jpg');
+  background-size: cover;
+  height: 50%;
+}
+.row {
+  max-width: 62.5rem;
+  width: 100%;
+  margin: 0 auto;
+}
+.footer {
+  text-align: right;
+  font-size: 0.8rem;
+}
+.header {
+  padding: 2em 0
+}
+.header img {
+  float: left;
+}
+.header .title, .header .navigation {
+  text-align: right;
+}
+.header .title {
+  margin-top: 1.5em;
+}
+.header h1 {
+  font-size: 3em;
+  color: #292929;
+  margin: 0;
+  line-height: 1em;
+}
+.navigation a {
+  margin-left: 1em;
+  font-size: 1.25em;
+}
+.buildings {
+  text-align: center;
+}
+.building {
+  position: relative;
+  width: 280px;
+  display: inline-block;
+  text-align: left;
+  margin: 1em;
+  vertical-align: top;
+}
+.building h4 {
+  margin: 0;
+  text-align: center;
+}
+.building p {
+  margin-top: 0;
+}
+.contact {
+  margin-bottom: 2em;
+}
+.contact p {
+  margin: 0;
+}
+.contact .photo img {
+  float: left;
+  margin-left: 15px;
+}
+.contact .details {
+  margin-left: 120px;
+}
+.phone a {
+  display: none;
+}
+@media only screen and (max-device-width: 480px) {
+  .phone .plain {
+    display: none;
+  }
+  .phone a {
+    display: inline;
+  }
+  .building {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .navigation {
+    margin-top: 2em;
+    clear: left;
+  }
+  .navigation a {
+    font-size: 1em;
+  }
+}
